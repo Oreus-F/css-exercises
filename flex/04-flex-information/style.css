@@ -5,11 +5,21 @@ body {
 img {
   width: 100px;
   height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 6px;
+}
+
+.text{
+  text-align: center;
+  font-weight: 100;
 }
 
 .title {
   font-size: 36px;
   font-weight: 900;
+  text-align: center;
+  margin-bottom: 32px;
 }
 
 /* do not edit this footer */
@@ -24,3 +34,20 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+.allplants {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+.plant{
+  display: flex;
+  flex-direction: column;
+  flex-basis: 200px;
+}
+
+
+
+
+
