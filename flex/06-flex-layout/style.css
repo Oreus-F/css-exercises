@@ -27,7 +27,6 @@ input {
   border-radius: 16px;
   padding: 8px 24px;
   width: 400px;
-  margin-bottom: 14px;
 }
 
 ul{
@@ -55,9 +54,11 @@ a{
 }
 
 .content{
+  flex: 1;
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-flow: column wrap;
+  flex-direction: column;
+  gap: 16px;
 }
 
