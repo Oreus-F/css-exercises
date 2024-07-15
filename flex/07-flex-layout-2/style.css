@@ -14,7 +14,7 @@ body {
   align-items: center;
   font-weight: 900;
   display: flex;
-  padding-left: 20px;
+  padding: 0 16px;
 }
 
 .footer {
@@ -37,8 +37,8 @@ body {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
-  flex-basis: 35vh;
-  padding: 1%;
+  width: 300px;
+  padding: 16px;
 }
 
 .middlebox{
@@ -49,7 +49,7 @@ body {
 .cardbox{
   display: flex;
   flex-wrap: wrap;
-  gap: 30px;
+  gap: 32px;
   padding: 48px;
 }
 
@@ -57,15 +57,16 @@ ul{
   list-style-type: none;
   margin: 0;
   padding: 0px;
-  font-size: 24px;
-  display: flex;
-  flex-direction: column;
-  gap: 14px;
 
+}
+
+li{
+  margin-bottom: 16px;
 }
 
 a{
   text-decoration: none;
   color: white;
   margin-bottom: 8px;
+  font-size: 24px;
 }
